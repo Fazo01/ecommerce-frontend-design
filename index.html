@@ -1,24 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <div><img src="./assets/logo-colored.png" alt="logo"></div>
-    <div><input type="text" placeholder="Search"></div>
-    <div>
-      <li>Profile</li>
-      <li>Message</li>
-      <li>Orders</li>
-      <li>My cart</li>
-    </div>
-  </header>
-  <footer>
-    
-  </footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav>
+        <div><img src="./assets/logo-colored.png" alt="logo" /></div>
+
+        <div class="search-container">
+          <input type="text" class="search-input" placeholder="Search" />
+          <select class="search-select">
+            <option>All category</option>
+            <option>Books</option>
+            <option>Electronics</option>
+            <option>Clothing</option>
+            <option>Home</option>
+          </select>
+          <button class="search-button">Search</button>
+        </div>
+
+        <div class="header_links">
+          <li>
+            <img src="./assets/header-profile-icon.png" alt="profile-icon" />
+            <a href="#">Profile</a>
+          </li>
+          <li>
+            <img src="./assets/header-message-icon.png" alt="message-icon" /><a
+              href="#"
+              >Message</a
+            >
+          </li>
+          <li>
+            <img src="./assets/header-heart-icon.png" alt="Orders-icon" /><a
+              href="#"
+              >Orders</a
+            >
+          </li>
+          <li>
+            <img src="./assets/header-cart-icon.png" alt="cart-icon" />
+            <a href="#">My Cart</a>
+          </li>
+        </div>
+      </nav>
+      <div class="menu"></div>
+    </header>
+    <!-- Footer -->
+    <footer>
+      <div class="footer1">
+        <div class="col1">
+          <img class="logo-img" src="./assets/logo-colored.png" alt="" />
+          <p>
+            Best information about the company gies here but now lorem ipsum is
+          </p>
+          <div id="footer1_col1_links">
+            <img src="./assets/facebook3.png" alt="facebook" />
+            <img src="./assets/twitter3.png" alt="twitter3" />
+            <img src="./assets/linkedin3.png" alt="linkedin3" />
+            <img src="./assets/instagram3.png" alt="instagram3" />
+            <img src="./assets/youtube3.png" alt="youtube3" />
+          </div>
+        </div>
+        <div class="col2">
+          <h3>About</h3>
+          <li>About Us</li>
+          <li>Find store</li>
+          <li>Categories</li>
+          <li>Blogs</li>
+        </div>
+        <div class="col3">
+          <h3>Partnership</h3>
+          <li>About Us</li>
+          <li>Find store</li>
+          <li>Categories</li>
+          <li>Blogs</li>
+        </div>
+        <div class="col4">
+          <h3>Information</h3>
+          <li>Help Center</li>
+          <li>Money Refund</li>
+          <li>Shipping</li>
+          <li>Contact us</li>
+        </div>
+        <div class="col5">
+          <h3>For users</h3>
+          <li>Login</li>
+          <li>Register</li>
+          <li>Settings</li>
+          <li>My Orders</li>
+        </div>
+        <div class="col6">
+          <h3>Get app</h3>
+          <img
+            src="./assets/footer-apple-download.png"
+            alt="AppleStore_download"
+          />
+          <img
+            src="./assets/footer-google-download.png"
+            alt="googleApply_download"
+          />
+        </div>
+      </div>
+      <div class="footer2">
+        <p>© 2023 Ecommerce.</p>
+        <!-- Flags -->
+        <div class="language-selector" onclick="toggleDropdown()">
+          <div class="selected">
+            <img src="https://flagcdn.com/us.svg" alt="US Flag" />
+            <span>English</span>
+          </div>
+          <span class="arrow">▾</span>
+          <div class="dropdown" id="dropdown">
+            <div onclick="selectLang('English','https://flagcdn.com/us.svg')">
+              <img src="https://flagcdn.com/us.svg" /> English
+            </div>
+            <div onclick="selectLang('UAE','https://flagcdn.com/ae.svg')">
+              <img src="https://flagcdn.com/ae.svg" /> UAE
+            </div>
+            <div onclick="selectLang('Australia','https://flagcdn.com/au.svg')">
+              <img src="https://flagcdn.com/au.svg" /> Australia
+            </div>
+            <div onclick="selectLang('France','https://flagcdn.com/fr.svg')">
+              <img src="https://flagcdn.com/fr.svg" /> France
+            </div>
+            <div onclick="selectLang('Denmark','https://flagcdn.com/dk.svg')">
+              <img src="https://flagcdn.com/dk.svg" /> Denmark
+            </div>
+            <div onclick="selectLang('Germany','https://flagcdn.com/de.svg')">
+              <img src="https://flagcdn.com/de.svg" /> Germany
+            </div>
+            <div onclick="selectLang('Russia','https://flagcdn.com/ru.svg')">
+              <img src="https://flagcdn.com/ru.svg" /> Russia
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
 </html>
