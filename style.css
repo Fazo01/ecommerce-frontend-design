@@ -16,7 +16,8 @@ a {
 li {
   list-style: none;
 }
-nav {
+/* Navbar_Header */
+.navbar-header {
   min-width: 100%;
   height: 86px;
   display: flex;
@@ -84,6 +85,114 @@ nav {
   font-size: 12px;
   color: var(--heading-color);
 }
+
+/* NavBar */
+.nav_menu{
+  width: 100%;
+  height: 56px;
+  display: flex;
+  /* padding: 0px 60px; */
+  justify-content: space-around;
+  gap: 230px;
+  align-items: center;
+}
+.nav_menu ul{
+  display: flex;
+  position: relative;
+}
+.nav_menu ul li{
+  padding-left: 20px;
+}
+/* Dropdown Menu of help*/
+.nav_menu ul li ul{
+  display: none;
+  flex-direction: column;
+  width: 100px;
+  position: absolute;
+  background-color: #eceaea;
+  z-index: 19;
+  border-radius: 0px 0px 5px 5px;
+}
+.nav_menu ul li:hover ul{
+  display: flex;
+}
+.nav_menu ul li ul li{
+  padding: 6px;
+  
+}
+.nav_menu ul li ul li:hover{
+  background-color: #fff;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.language_dropdown{
+  /* padding-right: 20px; */
+  display: flex;
+  gap: 40px;
+}
+.language-selector2 {
+  width: 107px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 0px 6px 6px 6px;
+  /* font-size: 13px; */
+  font-family: Arial, sans-serif;
+  background: #fff;
+  cursor: pointer;
+  position: relative;
+  z-index: 90;
+}
+.selected2 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.selected2 img {
+  width: 20px;
+  height: 14px;
+}
+
+.arrow2 {
+  font-size: 12px;
+  color: #333;
+}
+
+.dropdown2 {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  width: 107px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: none;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.dropdown2 div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.dropdown2 div:hover {
+  background: #f0f0f0;
+}
+
+.dropdown2 img {
+  width: 20px;
+  height: 14px;
+}
+
 /* Hero */
 .first_section {
   display: flex;
@@ -364,7 +473,7 @@ nav {
   border: 1px solid transparent;
   border-radius: 4px;
   padding: 2px 6px;
-  font-size: 13px;
+  /* font-size: 13px; */
   font-family: Arial, sans-serif;
   background: #eff2f4;
   cursor: pointer;

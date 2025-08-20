@@ -10,57 +10,118 @@
     <!-- Header -->
     <header>
       <nav>
-        <div><img src="./assets/logo-colored.png" alt="logo" /></div>
+        <div class="navbar-header">
+          <div><img src="./assets/logo-colored.png" alt="logo" /></div>
 
-        <div class="search-container">
-          <input type="text" class="search-input" placeholder="Search" />
-          <select class="search-select">
-            <option>All category</option>
-            <option>Books</option>
-            <option>Electronics</option>
-            <option>Clothing</option>
-            <option>Home</option>
-          </select>
-          <button class="search-button">Search</button>
+          <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search" />
+            <select class="search-select">
+              <option>All category</option>
+              <option>Books</option>
+              <option>Electronics</option>
+              <option>Clothing</option>
+              <option>Home</option>
+            </select>
+            <button class="search-button">Search</button>
+          </div>
+
+          <div class="header_links">
+            <li>
+              <img src="./assets/header-profile-icon.png" alt="profile-icon" />
+              <a href="#">Profile</a>
+            </li>
+            <li>
+              <img
+                src="./assets/header-message-icon.png"
+                alt="message-icon"
+              /><a href="#">Message</a>
+            </li>
+            <li>
+              <img src="./assets/header-heart-icon.png" alt="Orders-icon" /><a
+                href="#"
+                >Orders</a
+              >
+            </li>
+            <li>
+              <img src="./assets/header-cart-icon.png" alt="cart-icon" />
+              <a href="#">My Cart</a>
+            </li>
+          </div>
         </div>
+        <div class="nav_menu">
+          <ul>
+            <li>
+              <a href="#"
+                ><img src="./assets/Menu_nav.png" alt="" /> All Category</a
+              >
+            </li>
+            <li><a href="#">Hot offers</a></li>
+            <li><a href="#">Gift boxes</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Menu items</a></li>
+            <li>
+              <a href="#"
+                >Help <img src="./assets/Dropdown_icon.png" alt=""
+              /></a>
+              <ul>
+                <li><a href="#">Get Help</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Rules</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="language_dropdown">
+            <a href="#"
+              >English, USD <img src="./assets/Dropdown_icon.png" alt=""
+            /></a>
 
-        <div class="header_links">
-          <li>
-            <img src="./assets/header-profile-icon.png" alt="profile-icon" />
-            <a href="#">Profile</a>
-          </li>
-          <li>
-            <img src="./assets/header-message-icon.png" alt="message-icon" /><a
-              href="#"
-              >Message</a
-            >
-          </li>
-          <li>
-            <img src="./assets/header-heart-icon.png" alt="Orders-icon" /><a
-              href="#"
-              >Orders</a
-            >
-          </li>
-          <li>
-            <img src="./assets/header-cart-icon.png" alt="cart-icon" />
-            <a href="#">My Cart</a>
-          </li>
+            <div class="language-selector2" onclick="toggleDropdown2()">
+              <div class="selected2">
+                <span>Ship to </span>
+                <img src="https://flagcdn.com/de.svg" alt="US Flag" />
+              </div>
+              <span class="arrow2"
+                ><img src="./assets/Dropdown_icon.png" alt=""
+              /></span>
+              <div class="dropdown2" id="dropdown2">
+                <div
+                  onclick="selectLang('English','https://flagcdn.com/us.svg')"
+                >
+                  <img src="https://flagcdn.com/us.svg" /> English
+                </div>
+                <div onclick="selectLang('UAE','https://flagcdn.com/ae.svg')">
+                  <img src="https://flagcdn.com/ae.svg" /> UAE
+                </div>
+                <div
+                  onclick="selectLang('Australia','https://flagcdn.com/au.svg')"
+                >
+                  <img src="https://flagcdn.com/au.svg" /> Australia
+                </div>
+                <div
+                  onclick="selectLang('France','https://flagcdn.com/fr.svg')"
+                >
+                  <img src="https://flagcdn.com/fr.svg" /> France
+                </div>
+                <div
+                  onclick="selectLang('Denmark','https://flagcdn.com/dk.svg')"
+                >
+                  <img src="https://flagcdn.com/dk.svg" /> Denmark
+                </div>
+                <div
+                  onclick="selectLang('Germany','https://flagcdn.com/de.svg')"
+                >
+                  <img src="https://flagcdn.com/de.svg" /> Germany
+                </div>
+                <div
+                  onclick="selectLang('Russia','https://flagcdn.com/ru.svg')"
+                >
+                  <img src="https://flagcdn.com/ru.svg" /> Russia
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </nav>
-      <div class="menu">
-        <div class="dropdown_content">
-
-          <a href="#">All Category</a>
-          <a href="#">Hot offers</a>
-          <a href="#">Gift boxes</a>
-          <a href="#">Projects</a>
-          <a href="#">Menu items</a>
-          <a href="#">Help</a>
-        </div>
-        <div class="language_dropdown">
-
-        </div>
-      </div>
     </header>
     <main>
       <section class="first_section">
@@ -113,9 +174,7 @@
           </div>
         </div>
       </section>
-      <section class="second_section">
-
-      </section>
+      <section class="second_section"></section>
     </main>
     <!-- Footer -->
     <footer>
