@@ -365,14 +365,16 @@ li {
   font-size: 14px;
   line-height: 1.4;
 }
-/* Second section */
-.second_section{
+
+/* ======= SECOND SECTION - DEALS BANNER ======= */
+.second_section {
   margin-top: 20px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .deals-banner {
   width: 1180px;
   height: 240px;
@@ -404,7 +406,6 @@ li {
 }
 
 .countdown-timer {
-  
   display: flex;
   gap: 8px;
 }
@@ -440,6 +441,7 @@ li {
   background: white;
 }
 
+/* SECOND SECTION - DEALS PRODUCTS */
 .product-item {
   flex: 1;
   padding: 24px 20px;
@@ -455,7 +457,7 @@ li {
   border-right: none;
 }
 
-.product-image {
+.product-item .product-image {
   width: 80px;
   height: 80px;
   background: #f5f5f5;
@@ -467,7 +469,7 @@ li {
   font-size: 24px;
 }
 
-.product-name {
+.product-item .product-name {
   margin-top: 20px;
   font-size: 16px;
   font-weight: 500;
@@ -485,7 +487,7 @@ li {
   border: 1px solid #ffcdd2;
 }
 
-/* Product specific styling */
+/* Product specific styling for DEALS SECTION */
 .smart-watch .product-image {
   margin-top: 20px;
   background: #f0f0f0;
@@ -507,7 +509,169 @@ li {
   background: #f0f0f8;
 }
 
-/* Footer Section */
+/* ======= THIRD SECTION - HOME & OUTDOOR ======= */
+.Third_section {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-grid {
+  width: 1180px;
+  height: 257px;
+  background: #f8f9fa;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  overflow: hidden;
+}
+
+.hero-section {
+  width: 290px;
+  height: 257px;
+  background: linear-gradient(135deg, #f5f1e8 0%, #e8dcc6 100%);
+  position: relative;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #2c2c2c;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+.hero-button {
+  background: white;
+  border: 1px solid #d0d0d0;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background-color 0.2s;
+}
+
+.hero-button:hover {
+  background: #f5f5f5;
+}
+
+.hero-decoration {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 60px;
+  height: 120px;
+  background: #c8d5b9;
+  border-radius: 50px;
+  opacity: 0.7;
+}
+
+.hero-decoration::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  right: 15px;
+  height: 30px;
+  background: #a8c088;
+  border-radius: 15px;
+}
+
+.products-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(4, 223px);
+  grid-template-rows: repeat(2, 127px);
+  gap: 1px;
+  
+  background: #e5e5e5;
+}
+
+/* THIRD SECTION - HOME & OUTDOOR PRODUCTS */
+.product-card {
+  width: 223px;
+  height: 127px;
+  background: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.product-card .product-image {
+  width: 60px;
+  height: 60px;
+  background: #f0f0f0;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  align-self: flex-end;
+}
+
+.product-card .product-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.product-price {
+  font-size: 14px;
+  color: #666;
+}
+
+.price-label {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 2px;
+}
+
+.price-value {
+  font-weight: 500;
+  color: #333;
+}
+
+/* Product specific colors for HOME & OUTDOOR SECTION */
+.soft-chairs .product-image {
+  background: #fff3e0;
+}
+.sofa-chair .product-image {
+  background: #f5f5f5;
+}
+.kitchen-dishes .product-image {
+  background: #e3f2fd;
+}
+.smart-watches .product-image {
+  background: #fce4ec;
+}
+.kitchen-mixer .product-image {
+  background: #f1f8e9;
+}
+.blenders .product-image {
+  background: #f9f9f9;
+}
+.home-appliance .product-image {
+  background: #fff8e1;
+}
+.coffee-maker .product-image {
+  background: #e8f5e8;
+}
+
+/* ======= FOOTER SECTION ======= */
 .footer1 {
   display: flex;
   min-width: 100%;
