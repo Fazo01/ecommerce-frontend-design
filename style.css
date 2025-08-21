@@ -532,7 +532,8 @@ li {
 .hero-section {
   width: 290px;
   height: 257px;
-  background: linear-gradient(135deg, #f5f1e8 0%, #e8dcc6 100%);
+  background-image: url(./assets/Group\ 969.png);
+  background-size: cover;
   position: relative;
   padding: 24px;
   display: flex;
@@ -610,11 +611,11 @@ li {
 }
 
 .product-card .product-image {
-  width: 60px;
-  height: 60px;
-  background: #f0f0f0;
+  width: 67px;
+  height: 70px;
   border-radius: 8px;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
+  padding-bottom: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -645,31 +646,6 @@ li {
   color: #333;
 }
 
-/* Product specific colors for HOME & OUTDOOR SECTION */
-.soft-chairs .product-image {
-  background: #fff3e0;
-}
-.sofa-chair .product-image {
-  background: #f5f5f5;
-}
-.kitchen-dishes .product-image {
-  background: #e3f2fd;
-}
-.smart-watches .product-image {
-  background: #fce4ec;
-}
-.kitchen-mixer .product-image {
-  background: #f1f8e9;
-}
-.blenders .product-image {
-  background: #f9f9f9;
-}
-.home-appliance .product-image {
-  background: #fff8e1;
-}
-.coffee-maker .product-image {
-  background: #e8f5e8;
-}
 
 /* ======= FOOTER SECTION ======= */
 .footer1 {
