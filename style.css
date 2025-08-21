@@ -87,7 +87,7 @@ li {
 }
 
 /* NavBar */
-.nav_menu{
+.nav_menu {
   width: 100%;
   height: 56px;
   display: flex;
@@ -96,15 +96,15 @@ li {
   gap: 230px;
   align-items: center;
 }
-.nav_menu ul{
+.nav_menu ul {
   display: flex;
   position: relative;
 }
-.nav_menu ul li{
+.nav_menu ul li {
   padding-left: 20px;
 }
 /* Dropdown Menu of help*/
-.nav_menu ul li ul{
+.nav_menu ul li ul {
   display: none;
   flex-direction: column;
   width: 100px;
@@ -113,19 +113,18 @@ li {
   z-index: 19;
   border-radius: 0px 0px 5px 5px;
 }
-.nav_menu ul li:hover ul{
+.nav_menu ul li:hover ul {
   display: flex;
 }
-.nav_menu ul li ul li{
+.nav_menu ul li ul li {
   padding: 6px;
-  
 }
-.nav_menu ul li ul li:hover{
+.nav_menu ul li ul li:hover {
   background-color: #fff;
   border-radius: 0px 0px 5px 5px;
 }
 
-.language_dropdown{
+.language_dropdown {
   /* padding-right: 20px; */
   display: flex;
   gap: 40px;
@@ -201,7 +200,7 @@ li {
 .first_section .container {
   width: 1180px;
   height: 400px;
-  
+
   padding: 20px;
   display: flex;
   background-color: white;
@@ -248,14 +247,14 @@ li {
 }
 
 .trending-text {
-  color: #1C1C1C;
+  color: #1c1c1c;
   font-size: 28px;
   font-weight: 500;
   margin-bottom: 8px;
 }
 
 .main-title {
-  color: #1C1C1C;
+  color: #1c1c1c;
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 24px;
@@ -264,7 +263,7 @@ li {
 
 .learn-btn {
   background-color: white;
-  color: #1C1C1C;
+  color: #1c1c1c;
   border: none;
   padding: 12px 24px;
   border-radius: 8px;
@@ -299,14 +298,14 @@ li {
 .user-section {
   width: 100%;
   height: 150px;
-  background-color: #E3F0FF;
+  background-color: #e3f0ff;
   display: flex;
   flex-direction: column;
   gap: 12px;
   padding: 10px;
   border-radius: 6px;
 }
-.user_avater{
+.user_avater {
   display: flex;
   gap: 10px;
 }
@@ -366,6 +365,148 @@ li {
   font-size: 14px;
   line-height: 1.4;
 }
+/* Second section */
+.second_section{
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.deals-banner {
+  width: 1180px;
+  height: 240px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  border: 1px solid #e5e5e5;
+  display: flex;
+}
+
+.countdown-section {
+  border-right: 1px solid #e5e5e5;
+  border-radius: 10px;
+  width: 280px;
+  padding: 24px;
+  background: white;
+}
+
+.deals-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+}
+
+.deals-subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.countdown-timer {
+  
+  display: flex;
+  gap: 8px;
+}
+
+.time-unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time-number {
+  background: #4a4a4a;
+  color: white;
+  padding: 12px 8px;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: bold;
+  min-width: 44px;
+  text-align: center;
+}
+
+.time-label {
+  font-size: 12px;
+  color: #666;
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+.products-section {
+  border-radius: 10px;
+  flex: 1;
+  display: flex;
+  background: white;
+}
+
+.product-item {
+  flex: 1;
+  padding: 24px 20px;
+  display: flex;
+  border-right: 1px solid #e5e5e5;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.product-item:last-child {
+  border-right: none;
+}
+
+.product-image {
+  width: 80px;
+  height: 80px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.product-name {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.discount-badge {
+  background: #ffe6e6;
+  color: #d32f2f;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 12px;
+  border: 1px solid #ffcdd2;
+}
+
+/* Product specific styling */
+.smart-watch .product-image {
+  margin-top: 20px;
+  background: #f0f0f0;
+}
+.laptop .product-image {
+  margin-top: 20px;
+  background: #f8f8f8;
+}
+.gopro .product-image {
+  margin-top: 20px;
+  background: #f5f5f5;
+}
+.headphones .product-image {
+  margin-top: 20px;
+  background: #f0f4ff;
+}
+.canon .product-image {
+  margin-top: 20px;
+  background: #f0f0f8;
+}
+
 /* Footer Section */
 .footer1 {
   display: flex;
