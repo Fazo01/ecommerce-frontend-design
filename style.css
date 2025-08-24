@@ -1000,12 +1000,15 @@ li {
 }
 
 .inquiry-text h2 {
-  font-size: 26px;
+  font-size: 32px;
+  width: 390px;
+  font-weight: 550;
   margin-bottom: 15px;
 }
 
 .inquiry-text p {
   font-size: 16px;
+  width: 390px;
   opacity: 0.9;
 }
 
@@ -1023,13 +1026,16 @@ li {
 }
 
 .inquiry-box h3 {
-  margin-bottom: 10px;
+  font-size: 20px;
+  /* margin-bottom: 10px; */
 }
 
 .inquiry-box input,
 .inquiry-box textarea,
 .inquiry-box select {
-  width: 100%;
+  width: 440px;
+  height: 40px;
+  
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 6px;
@@ -1037,7 +1043,8 @@ li {
 }
 
 .inquiry-box textarea {
-  height: 70px;
+  width: 440px;
+  height: 73px;
   resize: none;
 }
 
@@ -1047,11 +1054,15 @@ li {
 }
 
 .inquiry-box .row input {
-  flex: 2;
+  width: 206px;
+  height: 40px;
+  color: #000;
 }
 
 .inquiry-box .row select {
-  flex: 1;
+  width: 111px;
+
+  height: 40px;
 }
 
 .inquiry-box button {
@@ -1062,6 +1073,8 @@ li {
   font-size: 16px;
   border-radius: 6px;
   cursor: pointer;
+  width: 128px;
+  height: 40px;
 }
 
 .inquiry-box button:hover {
