@@ -242,12 +242,13 @@ li {
   width: 1180px;
   height: 400px;
 
-  padding: 20px;
+  padding: 20px 20px 20px 15px;
   display: flex;
   background-color: white;
-  gap: 20px;
+  gap: 10px;
   border-radius: 12px;
   border: 1px solid #e5e5e5;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.233);
   overflow: hidden;
 }
 
@@ -255,37 +256,42 @@ li {
   width: 250px;
   height: 360px;
   background-color: #fff;
-  /* padding: 2px 0; */
+  
 }
 
 .category {
-  background-color: white;
-  padding: 10px 24px;
-  color: #495057;
+  padding: 10px 24px ;
+  color: #1C1C1C;
+  font-weight: 500;
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.2s;
 }
-
+.category:first-child{
+  border-radius: 6px;
+  background-color: #E5F1FF;
+}
+.category:first-child:hover{
+  border-radius: 6px;
+  background-color: white;
+}
 .category:hover {
-  background-color: #e9ecef;
+  background-color: #E5F1FF;
   border-radius: 6px;
 }
 
 .main-content {
-  background-color: transparent;
-  flex: 1;
-  position: relative;
+  width: 665px;
+  height: 360px;
   display: flex;
   background-image: url(./assets/hero_headset.png);
   background-size: cover;
   justify-content: space-between;
   padding-left: 40px;
   padding-top: 60px;
+  box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.233);
 }
-
 .content-left {
-  background-color: transparent;
   z-index: 9;
   flex: 1;
 }
@@ -333,12 +339,13 @@ li {
 }
 
 .right-sidebar {
-  width: 220px;
-  /* padding-top: 24px; */
+  width: 200px;
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
+  position: relative;
+  left: 10px;
 }
 
 .user-section {
