@@ -579,9 +579,8 @@ li {
   height: 257px;
   background: #f8f9fa;
   border: 1px solid #e5e5e5;
-  border-radius: 10px;
+  border-radius: 6px;
   display: flex;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   overflow: hidden;
 }
 
@@ -594,11 +593,11 @@ li {
   padding: 24px;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
 }
 
 .hero-title {
-  font-size: 24px;
+  width: 154px;
+  font-size: 20px;
   font-weight: 600;
   color: #2c2c2c;
   width: 150px;
@@ -612,7 +611,7 @@ li {
   border: none;
   padding: 10px 17px;
   border-radius: 6px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   color: #333;
   cursor: pointer;
@@ -689,19 +688,17 @@ li {
 }
 
 .product-price {
-  font-size: 14px;
-  color: #666;
+  font-size: 13px;
+  color: #8B96A5;
 }
 
 .price-label {
-  font-size: 14px;
-  color: #999;
+  font-size: 13px;
   margin-bottom: 2px;
 }
 
 .price-value {
   font-weight: 400;
-  color: #999;
 }
 /* ======= FOURTH SECTION - HOME & OUTDOOR ======= */
 .Fourth_section {
@@ -717,7 +714,7 @@ li {
   height: 257px;
   background: #f8f9fa;
   border: 1px solid #e5e5e5;
-  border-radius: 10px;
+  border-radius: 6px;
   display: flex;
   overflow: hidden;
 }
@@ -731,11 +728,11 @@ li {
   padding: 24px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .hero-title2 {
-  font-size: 24px;
+  width: 154px;
+  font-size: 20px;
   font-weight: 600;
   color: #2c2c2c;
   line-height: 1.2;
@@ -748,7 +745,7 @@ li {
   border: none;
   padding: 10px 17px;
   border-radius: 6px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   color: #333;
   cursor: pointer;
@@ -825,155 +822,19 @@ li {
 }
 
 .product-price2 {
-  font-size: 14px;
-  color: #666;
+  font-size: 13px;
+  color: #8B96A5;
 }
 
 .price-label2 {
-  font-size: 12px;
-  color: #999;
+  font-size: 13px;
   margin-bottom: 2px;
 }
 
 .price-value2 {
   font-weight: 500;
-  color: #333;
-}
-.Fourth_section2 {
-  margin-top: 20px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.product-grid2 {
-  width: 1180px;
-  height: 257px;
-  background: #f8f9fa;
-  border: 1px solid #e5e5e5;
-  border-radius: 10px;
-  display: flex;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  overflow: hidden;
-}
-
-.hero-section2 {
-  width: 290px;
-  height: 257px;
-  background-image: url(./assets/Consumer\ electronic\ and\ gadgets.png);
-  background-size: cover;
-  position: relative;
-  padding: 24px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.hero-title2 {
-  font-size: 24px;
-  font-weight: 600;
-  color: #2c2c2c;
-  line-height: 1.2;
-  margin-bottom: 8px;
-}
-
-.hero-button2 {
-  background: white;
-  border: 1px solid #d0d0d0;
-  padding: 10px 20px;
-  border-radius: 6px;
-  font-size: 14px;
-  font-weight: 500;
-  color: #333;
-  cursor: pointer;
-  align-self: flex-start;
-  transition: background-color 0.2s;
-}
-
-.hero-button2:hover {
-  background: #f5f5f5;
-}
-
-.hero-decoration2 {
-  position: absolute;
-  right: 20px;
-  top: 20px;
-  width: 60px;
-  height: 120px;
-  background: #c8d5b9;
-  border-radius: 50px;
-  opacity: 0.7;
-}
-
-.hero-decoration2::before {
-  content: "";
-  position: absolute;
-  top: 10px;
-  left: 15px;
-  right: 15px;
-  height: 30px;
-  background: #a8c088;
-  border-radius: 15px;
-}
-
-.products-grid2 {
-  flex: 1;
-  display: grid;
-  grid-template-columns: repeat(4, 223px);
-  grid-template-rows: repeat(2, 127px);
-  gap: 1px;
-
-  background: #e5e5e5;
-}
-
-/* FOURTH SECTION - HOME & OUTDOOR PRODUCTS */
-.product-card2 {
-  width: 223px;
-  height: 127px;
-  background: white;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  position: relative;
-}
-
-.product-card2 .product-image2 {
-  width: 67px;
-  height: 70px;
-  border-radius: 8px;
-  /* margin-bottom: 16px; */
-  padding-bottom: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-  align-self: flex-end;
-}
-
-.product-card2 .product-name2 {
-  font-size: 16px;
-  font-weight: 500;
-  color: #1a1a1a;
-  margin-bottom: 8px;
-}
-
-.product-price2 {
-  font-size: 14px;
-  color: #666;
-}
-
-.price-label2 {
-  font-size: 14px;
-  color: #999;
-  margin-bottom: 2px;
-}
-
-.price-value2 {
-  font-weight: 400;
-  color: #999;
-}
 /* FIFTH SECTION */
 .Fifth_Section {
   width: 100%;
