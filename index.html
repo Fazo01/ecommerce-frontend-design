@@ -73,27 +73,22 @@
             </li>
           </ul>
           <div class="language_dropdown">
-            <div class="dropdown">
-              <div class="dropdown-btn" onclick="toggle()">
-                <span id="dropdown-btn-text">
-                  <i class="fa-solid fa-hand-pointer"></i>
-                  Select your option </span
-                ><i id="arrow-down" class="fa-solid fa-chevron-down"></i>
+            <div class="lang-dropdown">
+              <div class="lang-dropdown-btn" onclick="toggle()">
+                <span id="lang-dropdown-btn-text">
+                  
+                  English, USD
+                </span>
+                <img src="./assets/Dropdown_icon.png" alt="" />
               </div>
-              <ul class="dropdown-options">
-                <li class="option"><i class="fa-brands fa-html5"></i>HTML</li>
-                <li class="option"><i class="fa-brands fa-css3"></i>CSS</li>
-                <li class="option">
-                  <i class="fa-brands fa-js"></i>JavaScript
-                </li>
-                <li class="option">
-                  <i class="fa-brands fa-angular"></i>Angular
-                </li>
-                <li class="option">
-                  <i class="fa-brands fa-react"></i>React.js
-                </li>
-                <li class="option"><i class="fa-brands fa-vuejs"></i>Vue.js</li>
-              </ul>
+              <div class="lang-dropdown-options">
+                <div class="option">English, USD</div>
+                <div class="option">Spanish, EUR</div>
+                <div class="option">French, EUR</div>
+                <div class="option">German, EUR</div>
+                <div class="option">Italian, EUR</div>
+                <div class="option">Japanese, JPR</div>
+              </div>
             </div>
 
             <div class="language-selector2" onclick="toggleDropdown2(event)">
@@ -913,4 +908,5 @@
     </footer>
   </body>
   <script src="script.js"></script>
+  <script src="dropdown-lang.js"></script>
 </html>
