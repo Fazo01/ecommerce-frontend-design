@@ -39,7 +39,7 @@ li {
   width: 665px;
   height: 40px;
   display: flex;
-  border: 1px solid #007bff;
+  border: 2.5px solid #007bff;
 
   border-radius: 6px;
   overflow: hidden;
@@ -56,12 +56,18 @@ li {
 }
 
 .search-select {
-  background-color: white;
-  border: none;
-  padding: 0 10px;
-  font-size: 14px;
-  outline: none;
-  border-left: 1px solid #ccc;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238B96A5' stroke-width='2.5'%3e%3cpolyline points='6,9 12,15 18,9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  width: 140px;
+  padding-left: 8px;
+  background-position: right 8px center;
+  background-size: 22px;
+  font-size: 16px;
+  filter: hue-rotate(120deg); /* Adjust degrees for different colors */
+  border: 1px solid #0fcf2f;
 }
 
 .search-button {
@@ -69,7 +75,7 @@ li {
   border: none;
   color: white;
   font-size: 14px;
-  padding: 0 20px;
+  padding: 0 25px;
   cursor: pointer;
   /* transition: background 0.3s ease; */
 }
@@ -163,7 +169,7 @@ li {
 }
 .language-selector2 {
   background-color: white;
-  width: 107px;
+  width: 115px;
   height: 24px;
   display: flex;
   align-items: center;
@@ -186,20 +192,19 @@ li {
 }
 .selected2 span {
   background-color: white;
+  font-size: 16px;
 }
 
 .selected2 img {
-  width: 20px;
-  height: 14px;
+  width: 22px;
+  height: 16px;
 }
 
 .arrow2 {
   background-color: white;
   font-size: 12px;
   color: #333;
-}
-.arrow2 img {
-  background-color: white;
+  padding-left: 0px;
 }
 .dropdown2 {
   position: absolute;
@@ -256,27 +261,26 @@ li {
   width: 250px;
   height: 360px;
   background-color: #fff;
-  
 }
 
 .category {
-  padding: 10px 24px ;
-  color: #1C1C1C;
+  padding: 10px 24px;
+  color: #1c1c1c;
   font-weight: 500;
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.2s;
 }
-.category:first-child{
+.category:first-child {
   border-radius: 6px;
-  background-color: #E5F1FF;
+  background-color: #e5f1ff;
 }
-.category:first-child:hover{
+.category:first-child:hover {
   border-radius: 6px;
   background-color: white;
 }
 .category:hover {
-  background-color: #E5F1FF;
+  background-color: #e5f1ff;
   border-radius: 6px;
 }
 
@@ -689,7 +693,7 @@ li {
 
 .product-price {
   font-size: 13px;
-  color: #8B96A5;
+  color: #8b96a5;
 }
 
 .price-label {
@@ -823,7 +827,7 @@ li {
 
 .product-price2 {
   font-size: 13px;
-  color: #8B96A5;
+  color: #8b96a5;
 }
 
 .price-label2 {
@@ -896,7 +900,7 @@ li {
 .inquiry-box select {
   width: 440px;
   height: 40px;
-  
+
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 6px;
@@ -959,8 +963,8 @@ li {
 .recommend-section h2 {
   margin-bottom: 20px;
   font-size: 24px;
-  color: #1C1C1C;
-  font-weight:600;
+  color: #1c1c1c;
+  font-weight: 600;
 }
 
 .recommend-grid {
@@ -973,7 +977,7 @@ li {
   width: 220px;
   height: 310px;
   background: #fff;
-  border-radius: 8px;
+  border-radius: 6px;
   padding: 10px;
   /* box-shadow: 0 2px 8px rgba(0,0,0,0.1); */
   border: 1px solid #e5e5e5;
@@ -999,6 +1003,7 @@ li {
 }
 
 .desc {
+  cursor: pointer;
   font-size: 16px;
   color: #555;
 }
@@ -1017,8 +1022,8 @@ li {
 
 .service-section h2 {
   font-size: 24px;
-  color: #1C1C1C;
-  font-weight:600;
+  color: #1c1c1c;
+  font-weight: 600;
   margin-bottom: 24px; /* spacing between title and grid */
 }
 
@@ -1031,7 +1036,7 @@ li {
 .service-card {
   width: 280px;
   height: 200px;
-  border-radius: 8px;
+  border-radius: 6px;
   overflow: hidden;
   position: relative;
   background: #fff;
@@ -1053,6 +1058,7 @@ li {
 }
 
 .service-content p {
+  cursor: pointer;
   font-size: 16px;
   font-weight: 500;
   color: #000;
@@ -1078,47 +1084,47 @@ li {
   position: absolute;
 }
 /* Eight-Section */
-.Eight-Section{
+.Eight-Section {
   margin-top: 20px;
   width: 100%;
   display: flex;
   justify-content: center;
 }
-.Supplier_by_region{
+.Supplier_by_region {
   width: 1177px;
   height: 138px;
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
-.Supplier_Heading h2{
+.Supplier_Heading h2 {
   font-size: 24px;
-  color: #1C1C1C;
-  font-weight:600;
+  color: #1c1c1c;
+  font-weight: 600;
 }
-.Supplier_Country{
+.Supplier_Country {
   display: grid;
   grid-template-columns: repeat(5, 221px); /* 4 cards per row */
   grid-gap: 18px;
 }
-.Country_Flag{
+.Country_Flag {
   display: flex;
   gap: 10px;
   align-items: center;
 }
-.Country_Flag img{
+.Country_Flag img {
   width: 28px;
   height: 20px;
 }
-.Country_Flag_content h4{
+.Country_Flag_content h4 {
   font-size: 16px;
   font-weight: 400;
-  color: #1C1C1C;
+  color: #1c1c1c;
 }
-.Country_Flag_content p{
+.Country_Flag_content p {
   font-size: 13px;
   font-weight: 400;
-  color: #8B96A5;
+  color: #8b96a5;
 }
 
 /* Ninth-Section */
@@ -1142,10 +1148,10 @@ li {
   padding: 40px;
 }
 
-.newsletter-heading h2{
+.newsletter-heading h2 {
   font-size: 20px;
   font-weight: 600;
-  color: #1C1C1C;
+  color: #1c1c1c;
   margin-bottom: 8px;
 }
 
@@ -1252,6 +1258,9 @@ li {
 .col2 li {
   color: var(--heading-color);
 }
+.col2 li a {
+  color: var(--heading-color);
+}
 .col2 h3 {
   font-weight: 500;
 }
@@ -1266,13 +1275,16 @@ li {
 .col3 li {
   color: var(--heading-color);
 }
+.col3 li a {
+  color: var(--heading-color);
+}
 .col4 {
   display: flex;
   flex-direction: column;
   gap: 3px;
 }
 
-.col4 li {
+.col4 li a {
   color: var(--heading-color);
 }
 .col4 h3 {
@@ -1287,7 +1299,7 @@ li {
 .col5 h3 {
   font-weight: 500;
 }
-.col5 li {
+.col5 li a {
   color: var(--heading-color);
 }
 .col6 {
@@ -1301,6 +1313,7 @@ li {
 .col6 img {
   width: 124px;
   height: 42px;
+  cursor: pointer;
 }
 
 /* Footer2 */
@@ -1336,22 +1349,23 @@ li {
 .selected {
   display: flex;
   align-items: center;
+  font-size: 16px;
   gap: 5px;
 }
 
 .selected img {
-  width: 20px;
-  height: 14px;
+  width: 22px;
+  height: 16px;
 }
 
 .arrow {
   font-size: 12px;
   color: #333;
+  padding-left: 5px;
 }
-
 .dropdown {
   position: absolute;
-  top: 28px;
+  top: -178px;
   left: 0;
   width: 107px;
   background: #fff;
