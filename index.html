@@ -73,9 +73,28 @@
             </li>
           </ul>
           <div class="language_dropdown">
-            <a href="#"
-              >English, USD <img src="./assets/Dropdown_icon.png" alt=""
-            /></a>
+            <div class="dropdown">
+              <div class="dropdown-btn" onclick="toggle()">
+                <span id="dropdown-btn-text">
+                  <i class="fa-solid fa-hand-pointer"></i>
+                  Select your option </span
+                ><i id="arrow-down" class="fa-solid fa-chevron-down"></i>
+              </div>
+              <ul class="dropdown-options">
+                <li class="option"><i class="fa-brands fa-html5"></i>HTML</li>
+                <li class="option"><i class="fa-brands fa-css3"></i>CSS</li>
+                <li class="option">
+                  <i class="fa-brands fa-js"></i>JavaScript
+                </li>
+                <li class="option">
+                  <i class="fa-brands fa-angular"></i>Angular
+                </li>
+                <li class="option">
+                  <i class="fa-brands fa-react"></i>React.js
+                </li>
+                <li class="option"><i class="fa-brands fa-vuejs"></i>Vue.js</li>
+              </ul>
+            </div>
 
             <div class="language-selector2" onclick="toggleDropdown2(event)">
               <div class="selected2">

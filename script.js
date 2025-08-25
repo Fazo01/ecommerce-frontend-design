@@ -11,40 +11,40 @@ function selectLangHeader(name, flag) {
   document.getElementById("dropdown2").style.display = "none";
 }
 
-window.addEventListener("click", function(e) {
+window.addEventListener("click", function (e) {
   if (!e.target.closest(".language-selector2")) {
     document.getElementById("dropdown2").style.display = "none";
   }
 });
 //
 function toggleDropdownlang() {
-            const dropdown = document.getElementById('currencyDropdown');
-            dropdown.classList.toggle('active');
-        }
+  const dropdown = document.getElementById("currencyDropdown");
+  dropdown.classList.toggle("active");
+}
 
-        function selectOption(value) {
-            // Update selected value
-            document.getElementById('selectedValue').textContent = value;
-            
-            // Remove previous selection
-            document.querySelectorAll('.dropdown-item').forEach(item => {
-                item.classList.remove('selected');
-            });
-            
-            // Add selection to clicked item
-            event.target.classList.add('selected');
-            
-            // Close dropdown
-            document.getElementById('currencyDropdown').classList.remove('active');
-        }
+function selectOption(value) {
+  // Update selected value
+  document.getElementById("selectedValue").textContent = value;
 
-        // Close dropdown when clicking outside
-        document.addEventListener('click', function(event) {
-            const dropdown = document.getElementById('currencyDropdown');
-            if (!dropdown.contains(event.target)) {
-                dropdown.classList.remove('active');
-            }
-        });
+  // Remove previous selection
+  document.querySelectorAll(".dropdown-item").forEach((item) => {
+    item.classList.remove("selected");
+  });
+
+  // Add selection to clicked item
+  event.target.classList.add("selected");
+
+  // Close dropdown
+  document.getElementById("currencyDropdown").classList.remove("active");
+}
+
+// Close dropdown when clicking outside
+document.addEventListener("click", function (event) {
+  const dropdown = document.getElementById("currencyDropdown");
+  if (!dropdown.contains(event.target)) {
+    dropdown.classList.remove("active");
+  }
+});
 
 // FOOTER
 function toggleDropdownFooter(event) {
@@ -59,7 +59,7 @@ function selectLangFooter(name, flag) {
   document.getElementById("dropdown").style.display = "none";
 }
 
-window.addEventListener("click", function(e) {
+window.addEventListener("click", function (e) {
   if (!e.target.closest(".language-selector")) {
     document.getElementById("dropdown").style.display = "none";
   }
