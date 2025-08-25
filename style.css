@@ -215,16 +215,18 @@ li {
 
 .lang-dropdown.active .lang-dropdown-options {
   max-height: 300px;
+  
+  border: 1px solid #e5e5e5;
 }
 
 .lang-dropdown-options .option {
   display: flex;
   align-items: center;
-  font-size: 12px;
-  padding: 12px 1rem;
+  font-size: 13px;
+  padding: 5px 15px;
+  
   cursor: pointer;
   transition: background-color 0.2s;
-  border-bottom: 1px solid #f0f0f0;
 }
 
 .lang-dropdown-options .option:last-child {
@@ -280,6 +282,7 @@ h1 {
   display: flex;
   align-items: center;
   gap: 5px;
+  
 }
 .selected2 span {
   background-color: white;
@@ -303,7 +306,8 @@ h1 {
   left: 0;
   width: 107px;
   background: #fff;
-  border: 1px solid #ccc;
+  
+  border: 1px solid #e5e5e5;
   border-radius: 4px;
   display: none;
   flex-direction: column;
@@ -1456,11 +1460,11 @@ h1 {
 }
 .dropdown {
   position: absolute;
-  top: -178px;
+  top: -210px;
   left: 0;
   width: 107px;
   background: #fff;
-  border: 1px solid #ccc;
+  border: 1px solid #e5e5e5;
   border-radius: 4px;
   display: none;
   flex-direction: column;
