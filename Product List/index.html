@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
       <nav>
         <div class="navbar-header">
           <div class="logo">
@@ -137,10 +137,7 @@
                 <div
                   onclick="selectLangHeader('Ship to','https://flagcdn.com/gb.svg')"
                 >
-                  <img
-                    src="https://flagcdn.com/gb.svg"
-                    alt="UK Flag"
-                  />
+                  <img src="https://flagcdn.com/gb.svg" alt="UK Flag" />
                   <span>Great Britain</span>
                 </div>
               </div>
@@ -149,8 +146,51 @@
         </div>
       </nav>
     </header>
-    <main></main>
-        <footer>
+    <main>
+      <section class="Breadcrumb">
+        <div class="nav-breadcrumb">
+          Home
+          <span
+            ><img
+              src="./assets/right-side-arrow.png"
+              alt="right-side-arrow" /></span
+          >Clothings
+          <span
+            ><img
+              src="./assets/right-side-arrow.png"
+              alt="right-side-arrow" /></span
+          >Men’s wears
+          <span
+            ><img src="./assets/right-side-arrow.png" alt="right-side-arrow"
+          /></span>Summer clothing
+        </div>
+      </section>
+      <section class="newslatter-alibaba-Section">
+        <div class="newsletter-section">
+          <h2 class="newsletter-heading">Subscribe on our newsletter</h2>
+          <p class="newsletter-description">
+            Get daily news on upcoming offers from many suppliers all over the
+            world
+          </p>
+
+          <div class="subscription-form">
+            <div class="email-input-container">
+              <span class="email-icon"
+                ><img src="./assets/email.png" alt=""
+              /></span>
+              <input
+                type="email"
+                class="email-input"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <button type="submit" class="subscribe-button">Subscribe</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
       <div class="footer1">
         <div class="col1">
           <img class="logo-img" src="./assets/logo-colored.png" alt="" />
@@ -248,21 +288,17 @@
             >
               <img src="https://flagcdn.com/ru.svg" /> Russia
             </div>
-                            <div
-                  onclick="selectLangFooter('Great Britain','https://flagcdn.com/gb.svg')"
-                >
-                  <img
-                    src="https://flagcdn.com/gb.svg"
-                    alt="UK Flag"
-                  />
-                  <span>Great Britain</span>
-                </div>
+            <div
+              onclick="selectLangFooter('Great Britain','https://flagcdn.com/gb.svg')"
+            >
+              <img src="https://flagcdn.com/gb.svg" alt="UK Flag" />
+              <span>Great Britain</span>
+            </div>
           </div>
         </div>
       </div>
     </footer>
-
-</body>
-<script src="dropdown-lang.js"></script>
-<script src="script.js"></script>
+  </body>
+  <script src="dropdown-lang.js"></script>
+  <script src="script.js"></script>
 </html>
