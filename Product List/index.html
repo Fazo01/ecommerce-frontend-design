@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+      <nav>
+        <div class="navbar-header">
+          <div class="logo">
+            <img src="./assets/logo-colored.png" alt="logo" />
+          </div>
+
+          <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search" />
+            <select class="search-select">
+              <option>All category</option>
+              <option>Books</option>
+              <option>Electronics</option>
+              <option>Clothing</option>
+              <option>Home</option>
+            </select>
+            <button class="search-button">Search</button>
+          </div>
+
+          <div class="header_links">
+            <li>
+              <img src="./assets/header-profile-icon.png" alt="profile-icon" />
+              <a href="#">Profile</a>
+            </li>
+            <li>
+              <img
+                src="./assets/header-message-icon.png"
+                alt="message-icon"
+              /><a href="#">Message</a>
+            </li>
+            <li>
+              <img src="./assets/header-heart-icon.png" alt="Orders-icon" /><a
+                href="#"
+                >Orders</a
+              >
+            </li>
+            <li>
+              <img src="./assets/header-cart-icon.png" alt="cart-icon" />
+              <a href="#">My Cart</a>
+            </li>
+          </div>
+        </div>
+        <div class="nav_menu">
+          <ul>
+            <li>
+              <a href="#"
+                ><img src="./assets/Menu_nav.png" alt="" /> All Category</a
+              >
+            </li>
+            <li><a href="#">Hot offers</a></li>
+            <li><a href="#">Gift boxes</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Menu items</a></li>
+            <li>
+              <a href="#"
+                >Help <img src="./assets/Dropdown_icon.png" alt=""
+              /></a>
+              <ul>
+                <li><a href="#">Get Help</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Rules</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="language_dropdown">
+            <div class="lang-dropdown">
+              <div class="lang-dropdown-btn" onclick="toggle()">
+                <span id="lang-dropdown-btn-text"> English, USD </span>
+                <img src="./assets/Dropdown_icon.png" alt="" />
+              </div>
+              <div class="lang-dropdown-options">
+                <div class="option">English, USD</div>
+                <div class="option">UAE, AED</div>
+                <div class="option">French, EUR</div>
+                <div class="option">German, EUR</div>
+                <div class="option">Denmark, DKK</div>
+                <div class="option">Russia, RUB</div>
+                <div class="option">Britain, GBP</div>
+                <div class="option">Australia, AUD</div>
+              </div>
+            </div>
+
+            <div class="language-selector2" onclick="toggleDropdown2(event)">
+              <div class="selected2">
+                <span>Ship to</span>
+                <img src="https://flagcdn.com/de.svg" alt="Selected Flag" />
+              </div>
+              <span class="arrow2">
+                <img src="./assets/Dropdown_icon.png" alt="" />
+              </span>
+              <div class="dropdown2" id="dropdown2">
+                <div
+                  onclick="selectLangHeader('Ship to','https://flagcdn.com/us.svg')"
+                >
+                  <img src="https://flagcdn.com/us.svg" /> English
+                </div>
+                <div
+                  onclick="selectLangHeader('Ship to','https://flagcdn.com/ae.svg')"
+                >
+                  <img src="https://flagcdn.com/ae.svg" /> UAE
+                </div>
+                <div
+                  onclick="selectLangHeader('Ship to','https://flagcdn.com/au.svg')"
+                >
+                  <img src="https://flagcdn.com/au.svg" /> Australia
+                </div>
+                <div
+                  onclick="selectLangHeader('Ship to','https://flagcdn.com/fr.svg')"
+                >
+                  <img src="https://flagcdn.com/fr.svg" /> France
+                </div>
+                <div
+                  onclick="selectLangHeader('Ship to','https://flagcdn.com/dk.svg')"
+                >
+                  <img src="https://flagcdn.com/dk.svg" /> Denmark
+                </div>
+                <div
+                  onclick="selectLangHeader('Ship to','https://flagcdn.com/de.svg')"
+                >
+                  <img src="https://flagcdn.com/de.svg" /> Germany
+                </div>
+                <div
+                  onclick="selectLangHeader('Ship to','https://flagcdn.com/ru.svg')"
+                >
+                  <img src="https://flagcdn.com/ru.svg" /> Russia
+                </div>
+
+                <div
+                  onclick="selectLangHeader('Ship to','https://flagcdn.com/gb.svg')"
+                >
+                  <img
+                    src="https://flagcdn.com/gb.svg"
+                    alt="UK Flag"
+                  />
+                  <span>Great Britain</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main></main>
+        <footer>
+      <div class="footer1">
+        <div class="col1">
+          <img class="logo-img" src="./assets/logo-colored.png" alt="" />
+          <p>
+            Best information about the company gies here but now lorem ipsum is
+          </p>
+          <div id="footer1_col1_links">
+            <img src="./assets/facebook3.png" alt="facebook" />
+            <img src="./assets/twitter3.png" alt="twitter3" />
+            <img src="./assets/linkedin3.png" alt="linkedin3" />
+            <img src="./assets/instagram3.png" alt="instagram3" />
+            <img src="./assets/youtube3.png" alt="youtube3" />
+          </div>
+        </div>
+        <div class="col2">
+          <h3>About</h3>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Find store</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">Blogs</a></li>
+        </div>
+        <div class="col3">
+          <h3>Partnership</h3>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Find store</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">Blogs</a></li>
+        </div>
+        <div class="col4">
+          <h3>Information</h3>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Money Refund</a></li>
+          <li><a href="#">Shipping</a></li>
+          <li><a href="#">Contact us</a></li>
+        </div>
+        <div class="col5">
+          <h3>For users</h3>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Register</a></li>
+          <li><a href="#">Settings</a></li>
+          <li><a href="#">My Orders</a></li>
+        </div>
+        <div class="col6">
+          <h3>Get app</h3>
+          <img
+            src="./assets/footer-apple-download.png"
+            alt="AppleStore_download"
+          />
+          <img
+            src="./assets/footer-google-download.png"
+            alt="googleApply_download"
+          />
+        </div>
+      </div>
+      <div class="footer2">
+        <p>© 2023 Ecommerce.</p>
+        <!-- Flags -->
+        <div class="language-selector" onclick="toggleDropdownFooter(event)">
+          <div class="selected">
+            <img src="https://flagcdn.com/us.svg" alt="US Flag" />
+            <span>English</span>
+          </div>
+          <span class="arrow"><img src="./assets/uparrow.png" alt="" /></span>
+          <div class="dropdown" id="dropdown">
+            <div
+              onclick="selectLangFooter('English','https://flagcdn.com/us.svg')"
+            >
+              <img src="https://flagcdn.com/us.svg" /> English
+            </div>
+            <div onclick="selectLangFooter('UAE','https://flagcdn.com/ae.svg')">
+              <img src="https://flagcdn.com/ae.svg" /> UAE
+            </div>
+            <div
+              onclick="selectLangFooter('Australia','https://flagcdn.com/au.svg')"
+            >
+              <img src="https://flagcdn.com/au.svg" /> Australia
+            </div>
+            <div
+              onclick="selectLangFooter('France','https://flagcdn.com/fr.svg')"
+            >
+              <img src="https://flagcdn.com/fr.svg" /> France
+            </div>
+            <div
+              onclick="selectLangFooter('Denmark','https://flagcdn.com/dk.svg')"
+            >
+              <img src="https://flagcdn.com/dk.svg" /> Denmark
+            </div>
+            <div
+              onclick="selectLangFooter('Germany','https://flagcdn.com/de.svg')"
+            >
+              <img src="https://flagcdn.com/de.svg" /> Germany
+            </div>
+            <div
+              onclick="selectLangFooter('Russia','https://flagcdn.com/ru.svg')"
+            >
+              <img src="https://flagcdn.com/ru.svg" /> Russia
+            </div>
+                            <div
+                  onclick="selectLangFooter('Great Britain','https://flagcdn.com/gb.svg')"
+                >
+                  <img
+                    src="https://flagcdn.com/gb.svg"
+                    alt="UK Flag"
+                  />
+                  <span>Great Britain</span>
+                </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+</body>
+<script src="dropdown-lang.js"></script>
+<script src="script.js"></script>
+</html>
