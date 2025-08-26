@@ -344,13 +344,64 @@ h1 {
   width: 1250px;
   display: flex;
   gap: 10px;
+}
+.nav-breadcrumb a{
   color: #8B96A5;
-  font-size: 16px;
+  font-size: 16px; 
 }
 .nav-breadcrumb span img{
   width: 6.17px;
   height: 10px;
 }
+/* 2) Sidebar */
+.sidebar {
+  width: 240px;
+  height: 1011px;
+  font-size: 16px;
+  background: #fff;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+}
+
+.filter-section {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.filter-title {
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+.filter-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.filter-section li {
+  margin: 6px 0;
+  color: #555;
+}
+
+.filter-section input[type="checkbox"] {
+  margin-right: 6px;
+  accent-color: #0066ff; /* checkbox color like image */
+}
+
+.see-all {
+  color: #0066ff;
+  cursor: pointer;
+  font-weight: 500;
+}
+.collapsed {
+  cursor: pointer;
+  padding: 8px 0;
+  font-weight: 500;
+  color: #444;
+}
+
 /* newslatter-Section */
 .newslatter-alibaba-Section {
   margin-top: 50px;
