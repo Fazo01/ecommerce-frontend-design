@@ -543,6 +543,19 @@ main {
   width: 11.6667px;
   height: 11.6667px;
 }
+.shopping-products{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 295px 295px 295px;
+  grid-template-rows: 405px 405px 405px;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+}
+.shopping-products-box{
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid #DEE2E7;
+}
 /* newslatter-Section */
 .newslatter-alibaba-Section {
   margin-top: 50px;
