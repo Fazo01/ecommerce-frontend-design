@@ -10,7 +10,7 @@
   font-family: "Inter", sans-serif;
 }
 body {
-  background-color: #f0f0f0;
+  background-color: #F7FAFC;
 }
 a {
   color: black;
@@ -388,7 +388,7 @@ main {
 /* Main Content */
 .main_content {
   display: flex;
-  gap: 20px;
+  gap: 10px;
 }
 
 /* 2) Sidebar */
@@ -519,7 +519,6 @@ main {
 .view-icons button:hover {
   background: #eee;
 }
-
 /* newslatter-Section */
 .newslatter-alibaba-Section {
   margin-top: 50px;

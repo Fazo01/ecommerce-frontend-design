@@ -10,7 +10,7 @@
   font-family: "Inter", sans-serif;
 }
 body {
-  background-color: #f0f0f0;
+  background-color: #F7FAFC;
 }
 a {
   color: black;
@@ -1413,7 +1413,7 @@ h1 {
 
 /* Footer2 */
 .footer2 {
-  background: #eff2f4;
+  background: #F7FAFC;
   width: 100%;
   height: 68px;
   padding: 0 100px;
