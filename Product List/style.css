@@ -519,6 +519,30 @@ main {
 .view-icons button:hover {
   background: #eee;
 }
+/* filtered-applied */
+.filtered-applied{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+.filtered-applied a{
+  color: #0D6EFD;
+}
+.base-filtered{
+  background-color: white;
+  padding: 6px 10px;
+  border: 1px solid #0D6EFD;
+  border-radius: 6px;
+  display: flex;
+  gap: 9px;
+  font-size: 16px;
+  color: #505050;
+}
+.base-filtered span{
+  width: 11.6667px;
+  height: 11.6667px;
+}
 /* newslatter-Section */
 .newslatter-alibaba-Section {
   margin-top: 50px;
