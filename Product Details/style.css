@@ -359,8 +359,172 @@ main {
   width: 6.17px;
   height: 10px;
 }
-/* Content-main */
+/*1) .Product-details */
+.Product-details{
+  padding: 20px 19px;
+  background-color: white;
+  width: 1180px;
+  height: 580px;
+  display: flex;
+  border: 1px solid #DEE2E7;
+  border-radius: 6px;
+}
+.Products-details-image{
+  width:380px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Products-details-main-image{
+  width:380px;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #DEE2E7;
+  border-radius: 6px;
+}
+.Products-details-main-image img{
+  width: 345px;
+  height: 345px;
+}
+.Products-details-sub-images{
+  width:380px;
+  height: 56px;
+  display: flex;
+  gap: 9.15px;
+}
+.mini-product-img{
+  width: 56px;
+  height: 56px;
+  border-radius: 3px;
+  border: 1px solid #DEE2E7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.mini-product-img img{
+  padding: 0.5px 0.5px;
+  width: 48px;
+  height: 48px;
+}
+.mini-product-img:nth-child(3) img{
+  margin-top: 100px;
+  width: 148px;
+  height: 148px;
+}
+/* col2 */
+.Products-details-info{
+  margin-left: 22px;
+  width: 430px;
+  height: 514px;
+}
+.avaliable{
+  display: flex;
+  align-items: center;
+  color: #00B517;
+  font-size: 16px;
+}
+.title-product{
+  margin-top: 5px;
+  width: 384px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+}
+.rating{
+  margin-top: 11px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #787A80;
+  gap: 8px;
+}
+.trade-price{
+  margin-top: 14px;
+  width: 430px;
+  height: 72px;
+  background-color: #FFF0DF;
+  display: flex;
+  /* align-items: center; */
+  padding: 16px 0 14px 16px;
+}
+.high-trade-price{
+  display: flex;
+  gap: 4px;
+  padding-right: 42px;
+  flex-direction: column;
+  border-right: 1px solid #BDC1C8;
+  
+}
+.medium-trade-price{
+  display: flex;
+  gap: 4px;
+  padding-left: 10px;
+  padding-right: 39px;
+  flex-direction: column;
+  border-right: 1px solid #BDC1C8;
+}
+.lowest-trade-price{
+  display: flex;
+  padding-left: 10px;
+  gap: 4px;
+  flex-direction: column;
+}
+.high-trade-price .price{
+  color: #FA3434;
+  font-size: 18px;
+}
+.price{
+  font-weight: 600;
+  color: black;
+  font-size: 18px;
+}
+.number-of-pieces{
+  font-size: 13px;
+  color: #606060;
+}
+.trade-short-info{
+  width: 430px;
+  height: 296px;
+  margin-top: 21px;
+  font-size: 16px;
+}
+.trade-short-info table{
+  width: 430px;
+}
+.trade-short-info table tr{
+  width: 200px;
+}
+.trade-short-info table .row1 td{
+ padding-bottom: 16px;
+border-bottom: 1px solid #BDC1C8;
+}
+.section-1_rows td{
+  padding-top: 16px;
+}
+.section-1_rows:nth-child(4) td {
+  padding-bottom: 16px;
+border-bottom: 1px solid #BDC1C8;
+}
+.section-2_rows td{
+  
+  padding-top: 16px;
+}
+/* target only the first row of section-2 */
+.section-2_rows:first-child .value {
+  margin-top: 20px;
+}
 
+.key{
+  color: #8B96A5;
+}
+.value{
+  width: 189px;
+  /* margin-right: 27px; */
+}
 /* ======= FOOTER SECTION ======= */
 .footer1 {
   background-color: white;
