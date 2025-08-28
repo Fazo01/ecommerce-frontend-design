@@ -393,52 +393,69 @@ main {
 
 /* 2) Sidebar */
 .sidebar {
+  
   width: 240px;
   height: 1011px;
   font-size: 16px;
-  background: #fff;
   padding: 10px;
-  border-right: 1px solid #ccc;
 }
 
-.filter-section {
+.filter-section:nth-child(-n+3) {
+  /* border-bottom: 1px solid #DEE2E7; */
+  
   margin-bottom: 20px;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 10px;
 }
 
 .filter-title {
-  font-weight: bold;
-  color: #444;
-  margin-bottom: 8px;
+  border-top: 1px solid #DEE2E7;
+  width: 230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  color: black;
+  padding: 12px 0;
+  font-size: 16px;
 }
-
+.filter-title img{
+  width: 24px;
+  height: 24px;
+}
 .filter-section ul {
   list-style: none;
   padding-left: 0;
 }
 
 .filter-section li {
+  display: flex;
+  align-items: center;
+  padding: 9px 11px 8px 0;
   margin: 6px 0;
-  color: #555;
+   color: black;
+   font-weight: 400;
+  cursor: pointer;
 }
 
 .filter-section input[type="checkbox"] {
-  margin-right: 6px;
+  margin-right: 10px;
   accent-color: #0066ff; /* checkbox color like image */
 }
 
-.see-all {
+#see-all {
   color: #0066ff;
   cursor: pointer;
   font-weight: 500;
 }
 .collapsed {
+   border-top: 1px solid #DEE2E7;
   cursor: pointer;
-  padding: 8px 0;
-  font-weight: 500;
-  color: #444;
+  padding: 12px 0;
+  font-weight: 600;
+  color: black;
+  display: flex;
+  justify-content: space-between;
 }
+
 /* content-top */
 .content-top {
   width: 926px;
@@ -504,14 +521,16 @@ main {
   height: 32px;
   border: 1px solid #ccc;
   padding: 19px 19px;
-  background: #f9f9f9;
+  background: white;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
 }
+
 .view-icons .b1 {
   border-radius: 5px 0px 0px 5px;
+  background-color: #EFF2F4;
 }
 .view-icons .b2 {
   border-radius: 0px 5px 5px 0px;
@@ -530,6 +549,7 @@ main {
   color: #0D6EFD;
 }
 .base-filtered{
+  
   background-color: white;
   padding: 6px 10px;
   border: 1px solid #0D6EFD;
@@ -540,6 +560,7 @@ main {
   color: #505050;
 }
 .base-filtered span{
+  cursor: pointer;
   width: 11.6667px;
   height: 11.6667px;
 }
