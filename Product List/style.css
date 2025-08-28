@@ -543,6 +543,9 @@ main {
   width: 11.6667px;
   height: 11.6667px;
 }
+
+/* shopping-products */
+
 .shopping-products{
   margin-top: 20px;
   display: grid;
@@ -555,6 +558,61 @@ main {
   background-color: white;
   border-radius: 6px;
   border: 1px solid #DEE2E7;
+}
+.product-img{
+  height: 261px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #EFF2F4;
+}
+.product-img img{
+  width: 202.4px;
+  height: 202.4px;
+}
+.shopping-products-box:nth-child(5) .product-img img {
+  width: 212.62px;
+  height: 150.27px;
+}
+/* product-content */
+.product-content{
+  display: flex;
+  padding: 20px 18px;
+}
+.product-content-price strong{
+  font-size: 18px;
+  font-weight: 600;
+}
+.product-content-price span{
+  margin-left: 9px;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: line-through;
+  color: #8B96A5;
+}
+.product-content-rating{
+  margin-top: 11px;
+}
+.product-content-rating img{
+  width: 80px;
+  height: 15px;
+}
+.product-content-rating span{
+  color: #FF9017;
+  font-size: 16px;
+  margin-right: 6px;
+}
+.product-content-description{
+  margin-top: 13px;
+  font-size: 16px;
+  color: #606060;
+}
+.product-content-icons{
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border: 1px solid #DEE2E7;
+  border-radius: 6px;
 }
 /* newslatter-Section */
 .newslatter-alibaba-Section {
