@@ -639,7 +639,8 @@ main {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
+  gap: 20px;
 }
 .Product_description_Details_Block {
   width: 880px;
@@ -753,6 +754,9 @@ main {
   height: 20px;
 }
 .Aside_items {
+  width: 280px;
+  height: 553px;
+  background: #0056b3;
 }
 /* ======= FOOTER SECTION ======= */
 .footer1 {
