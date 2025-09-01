@@ -753,10 +753,50 @@ main {
   width: 20px;
   height: 20px;
 }
+/* Aside_items */
 .Aside_items {
   width: 280px;
   height: 553px;
-  background: #0056b3;
+  background: white;
+  padding-top: 20px;
+  padding-left: 16px;
+  padding-left: 22px;
+  border: 1px solid #dee2e7;
+  border-radius: 6px;
+}
+.Aside_items h2{
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 14px;
+}
+.Aside_items_Cloth{
+  display: flex;
+  gap: 11px;
+  /* width: 242px; */
+  height: 80px;
+  margin-bottom: 16px;
+}
+.Aside_items_Cloth_img{
+  width: 80px;
+  height: 80px;
+  border: 1px solid #dee2e7;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Aside_items_Cloth_Details p{
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+}
+.Aside_items_Cloth_Details span{
+  margin-top: 3px;
+  font-size: 16px;
+  color: #8B96A5;
+  line-height: 24px;
+  letter-spacing: -0.2px;
 }
 /* ======= FOOTER SECTION ======= */
 .footer1 {
