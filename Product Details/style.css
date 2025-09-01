@@ -514,16 +514,127 @@ border-bottom: 1px solid #BDC1C8;
   padding-top: 16px;
 }
 /* target only the first row of section-2 */
-.section-2_rows:first-child .value {
-  margin-top: 20px;
-}
+
 
 .key{
   color: #8B96A5;
 }
 .value{
+  color: #505050;
+  position: absolute;
+  right: 500px;
   width: 189px;
   /* margin-right: 27px; */
+}
+/* Seller_info */
+.Products-details-seller-info{
+  margin-left: 27px;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  align-items: center;
+}
+.seller-card {
+  width: 280px;
+  height: 325px;
+  border: 1px solid #DEE2E7;
+  border-radius: 6px;
+  padding: 19px 16px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  background: #fff;
+}
+
+.seller-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 17px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.seller-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+  background: #D7F0F4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  margin-right: 11px;
+  font-size: 28px;
+  color: #4CA7A799;
+}
+.supplier {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+  line-height: 24px;
+}
+
+.company {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+}
+
+.seller-info p {
+  margin: 12px 0;
+  font-size: 14px;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+.seller-info p img{
+  margin-right: 17px;
+}
+.seller-info p:nth-child(1) img{
+  width: 21px;
+  height: 15px;
+}
+.seller-info p img{
+  width: 20px;
+  height: 20px;
+}
+.seller-info p img{
+  width: 20px;
+  height: 20px;
+}
+.primary-btn {
+  width: 248px;
+  height: 40px;
+  border-radius: 6px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-top: 14px;
+}
+
+.primary-btn {
+  background: #0D6EFD;
+  color: #fff;
+}
+
+.secondary-btn {
+  margin-top: 8px;
+  width: 248px;
+  height: 40px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #DEE2E7;
+  background: white;
+  color: #0D6EFD;
+}
+.seller-info-btn a{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  color: #0D6EFD;
 }
 /* ======= FOOTER SECTION ======= */
 .footer1 {
