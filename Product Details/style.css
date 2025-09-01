@@ -705,7 +705,7 @@ main {
   max-width: 500px;
   background-color: white;
   overflow: hidden;
-  
+
   border: 1px solid #dee2e7;
 }
 
@@ -720,7 +720,7 @@ main {
 }
 
 .specs-table td:first-child {
-  background-color: #EFF2F4;
+  background-color: #eff2f4;
   font-weight: 500;
   color: #505050;
   width: 30%;
@@ -735,13 +735,13 @@ main {
 .specs-table tr:hover {
   background-color: #f9fafb;
 }
-.Features{
+.Features {
   margin-top: 26px;
   margin-left: 19px;
   width: 345px;
   height: 126px;
 }
-.Features li{
+.Features li {
   font-size: 16px;
   margin-bottom: 10px;
   color: #505050;
@@ -749,7 +749,7 @@ main {
   gap: 7px;
   align-items: center;
 }
-.Features li img{
+.Features li img {
   width: 20px;
   height: 20px;
 }
@@ -764,19 +764,19 @@ main {
   border: 1px solid #dee2e7;
   border-radius: 6px;
 }
-.Aside_items h2{
+.Aside_items h2 {
   font-weight: 600;
   font-size: 16px;
   margin-bottom: 14px;
 }
-.Aside_items_Cloth{
+.Aside_items_Cloth {
   display: flex;
   gap: 11px;
   /* width: 242px; */
   height: 80px;
   margin-bottom: 16px;
 }
-.Aside_items_Cloth_img{
+.Aside_items_Cloth_img {
   width: 80px;
   height: 80px;
   border: 1px solid #dee2e7;
@@ -786,18 +786,59 @@ main {
   align-items: center;
 }
 
-.Aside_items_Cloth_Details p{
+.Aside_items_Cloth_Details p {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.2px;
 }
-.Aside_items_Cloth_Details span{
+.Aside_items_Cloth_Details span {
   margin-top: 3px;
   font-size: 16px;
-  color: #8B96A5;
+  color: #8b96a5;
   line-height: 24px;
   letter-spacing: -0.2px;
 }
+.Recommended_product {
+  margin-top: 20px;
+  width: 1180px;
+  height: 350px;
+  background-color: white;
+  border: 1px solid #dee2e7;
+  border-radius: 6px;
+  padding-top: 20px;
+  padding-left: 22px;
+}
+.Recommended_product h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.Recommended_product_list_Row {
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+}
+.Recommended_product_list {
+  width: 172px;
+  height: 254px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.Recommended_product_list_details {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.Recommended_product_list_details p {
+  font-size: 16px;
+  color: #505050;
+}
+.Recommended_product_list_details span {
+  font-size: 16px;
+  color: #8b96a5;
+}
+/* Banner Section */
+
 /* ======= FOOTER SECTION ======= */
 .footer1 {
   background-color: white;
