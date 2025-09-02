@@ -838,7 +838,31 @@ main {
   color: #8b96a5;
 }
 /* Banner Section */
-
+.banner_section{
+  margin-top: 20px;
+  margin-bottom: 88px;
+}
+.banner {
+  width: 1180px;
+  height: 120px;
+  border-radius: 6px;
+  background-color: #005ADE;
+  overflow: hidden;
+}
+.banner img{
+  position: absolute;
+  z-index: 9;
+}
+.banner_content{
+  z-index: 99;
+}
+.banner_content_description{
+  color: white;
+}
+.banner_content_description h2{
+  font-size: 20px;
+  color: white;
+}
 /* ======= FOOTER SECTION ======= */
 .footer1 {
   background-color: white;
