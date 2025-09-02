@@ -27,7 +27,7 @@ li {
   display: flex;
   justify-content: space-around;
   gap: 710px;
-  
+
   align-items: center;
 }
 .navbar-header .logo {
@@ -62,30 +62,96 @@ li {
   font-size: 12px;
   color: var(--heading-color);
 }
-
+/* Main */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Cart {
+  width: 1180px;
+}
+.Cart_01 {
+  display: flex;
+  gap: 20px;
+  height: 552px;
+}
+.my_cart {
+  width: 880px;
+  height: 552px;
+  background-color: #005ade;
+  border-radius: 6px;
+  border: 1px solid #dee2e7;
+  background: #fff;
+}
+.aside_cart {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.block-coupon {
+  width: 280px;
+  height: 110px;
+  background-color: #005ade;
+  border-radius: 6px;
+  border: 1px solid #dee2e7;
+  background: #fff;
+}
+.aside_summary {
+  width: 280px;
+  height: 302px;
+  background-color: #005ade;
+  border-radius: 6px;
+  border: 1px solid #dee2e7;
+  background: #fff;
+}
+.Features{
+  width: 1180px;
+  display: flex;
+  gap: 54px;
+  margin-top: 30px;
+  margin-bottom: 31px;
+}
+.item_features{
+  background-color: #005ade;
+  width: 242px;
+height: 48px;
+}
+/* saved_items */
+.saved_items{
+  width: 1180px;
+height: 475px;
+border-radius: 6px;
+  border: 1px solid #dee2e7;
+  background: #fff;
+  margin-bottom: 20px;
+}
 /* Banner Section */
-.banner_section{
+.banner_section {
   margin-top: 20px;
   margin-bottom: 88px;
+
 }
 .banner {
   width: 1180px;
   height: 120px;
   border-radius: 6px;
-  background-color: #005ADE;
+  background-color: #005ade;
   overflow: hidden;
 }
-.banner img{
+.banner img {
   position: absolute;
   z-index: 9;
 }
-.banner_content{
+.banner_content {
   z-index: 99;
 }
-.banner_content_description{
+.banner_content_description {
   color: white;
 }
-.banner_content_description h2{
+.banner_content_description h2 {
   font-size: 20px;
   color: white;
 }
