@@ -39,7 +39,7 @@ li {
 .header_links {
   background-color: white;
   display: flex;
-  gap: 23px;
+  gap: 20px;
 }
 .header_links li {
   background-color: white;
